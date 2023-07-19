@@ -1,5 +1,85 @@
-#container {
-    margin: 20px;
-    width: 200px;
-    height: 200px;
-  }
+/* Geral */
+
+body{
+  font-family: 'ROBOTO', sans-serif; /*usar a fonte q veio via google fontes e quando não tiver ela usa a outra*/
+
+}
+
+.container-fluid{
+  padding: 70px 0;
+
+}
+
+.row{
+  margin: 0;
+
+}
+
+p, li{
+  color: #002756;
+  font-size: 16px;
+
+}
+
+/* Sobre */
+
+#about-area{
+  background-color: #eaeaea;
+
+}
+
+.main-title{
+  margin: 0 0 65px 0;
+  text-align: center;
+  font-size: 40px;
+  color: #002756;
+}
+
+#about-title{
+  color: #002756;
+  text-transform: uppercase; /*deixar tudo maiusculo*/
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#about-list{
+  list-style: none;
+  padding: 0;
+}
+
+#about-list i {
+  color: #0b7b9e;
+  margin-right: 15px;
+}
+
+#about-list li{
+  line-height: 30px;
+}
+
+/*serviços*/
+.service-box{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.service-box i{
+  font-size: 40px;
+  color: #002756;
+  margin-bottom: 20px;
+
+}
+
+.service-box h3{
+  font-size: 24px;
+}
+
+.service-box:hover > i, .service-box:hover > h3{
+  color: #0b7b9e;
+  
+
+}
+
+.service-box i, .service-box h3{
+  transition: 2s;
+
+}
