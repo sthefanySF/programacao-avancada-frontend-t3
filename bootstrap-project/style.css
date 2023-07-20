@@ -33,9 +33,19 @@ p, li{
   text-align: center;
   font-size: 40px;
   color: #002756;
+  position: relative;
 }
 
-#about-title{
+.main-title::after{
+  content: "";
+  border-top: 2px solid #002756;
+  width: 15%;
+  position: absolute ;
+  top: 60px;
+  left: 42.5%;
+}
+
+.title-uppercase{
   color: #002756;
   text-transform: uppercase; /*deixar tudo maiusculo*/
   font-weight: bold;
@@ -83,3 +93,51 @@ p, li{
   transition: 2s;
 
 }
+
+/*time*/
+
+#team-area .card{
+  margin-bottom: 65px;
+}
+
+/*trabalhe conosco*/
+
+#apply-area{
+  height: 500px;
+}
+
+#apply-area .row, #apply-img, #apply-content{
+  height: 100%;
+
+}
+
+#apply-img{
+  background-image: url('img/empresa.jpg');
+  background-size:cover;
+}
+
+#apply-content{
+  background-color: #0c0c0c;
+  padding: 0 5% 0 5%;
+  
+}
+
+#apply-content h4, #apply-content p{
+  color: white;
+}
+
+#apply-content h4{
+  margin-top: 15%;
+}
+
+#botao{
+  border-radius: 20px;
+  background-color: #00447c;
+}
+
+#botao:hover{
+  background-color: #0b7b9e;
+  
+
+}
+
